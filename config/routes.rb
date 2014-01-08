@@ -2,8 +2,8 @@ Collarful::Application.routes.draw do
 
   
   root "pages#home"
-    get "pages/about" => "pages#about"
-    get "pages/team" => "pages#team"
+    get "about" => "pages#about"
+    get "team" => "pages#team"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
